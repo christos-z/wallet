@@ -7,7 +7,6 @@ import createEngine from 'redux-storage-engine-localstorage';
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 import * as reducers from './reducers';
 import AddValue from './components/addValue'
-import counter from './reducers'
 
 
 const reducer = storage.reducer(combineReducers(reducers));
